@@ -1,4 +1,5 @@
-# Deloying-Web-on-Server-using-Tomcat
+# Deloying-Web-on-Server-using-Tomcat  
+## This work is based on [Install Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04), [Install Node.js](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04), and [Apache Tomcat 9](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)  
 creating a homepage and connecting to a dockercontainer  
 `sudo apt update`  
 `sudo apt install nodejs`  
@@ -46,3 +47,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```  
+`sudo systemctl daemon-reload`  
+`sudo systemctl start tomcat`  
+`sudo systemctl status tomcat`  
+``  
