@@ -1475,3 +1475,94 @@ body{
         border-bottom: 5px solid #dd481b;
     }
 }
+
+
+
+
+
+
+
+
+
+/*button*/
+.color .red {
+    background: #fa5a5a;
+}
+
+.color .yellow {
+    background: #f0d264;
+}
+
+.color .green {
+    background: #82c8a0;
+}
+
+.color .cyan {
+    background: #7fccde;
+}
+
+.color .blue {
+    background: #6698cb;
+}
+
+.color .purple {
+    background: #cb99c5;
+}
+.btn-two {
+    margin: 9px;
+}
+
+.btn-two.block{
+    display: block;
+    width: 40%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Colors for .btn and .btn-two */
+.btn.blue, .btn-two.blue {
+    background-color: #7fb1bf;
+}
+
+.btn.green, .btn-two.green {
+    background-color: #9abf7f;
+}
+
+.btn.red, .btn-two.red {
+    background-color: #fa5a5a;
+}
+
+.btn.purple, .btn-two.purple {
+    background-color: #cb99c5;
+}
+
+.btn.cyan, .btn-two.cyan {
+    background-color: #7fccde;
+}
+
+.btn.yellow, .btn-two.yellow {
+    background-color: #f0d264;
+}
+
+
+.btn-two {
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom-color: rgba(0,0,0,0.34);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.34) inset, 0 2px 0 -1px rgba(0,0,0,0.13), 0 3px 0 -1px rgba(0,0,0,0.08), 0 3px 13px -1px rgba(0,0,0,0.21);
+}
+
+    .btn-two:active {
+        top: 1px;
+        border-color: rgba(0,0,0,0.34) rgba(0,0,0,0.21) rgba(0,0,0,0.21);
+        box-shadow: 0 1px 0 rgba(255,255,255,0.89),0 1px rgba(0,0,0,0.05) inset;
+        position: relative;
+    }
+
